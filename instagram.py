@@ -2,7 +2,8 @@
 # Distro: Kali linux
 # Desc: Instagram Bruteforce
 #
-#
+#<script>alert("ukefo");</script>
+
 
 import os
 import time
