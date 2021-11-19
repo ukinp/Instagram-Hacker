@@ -31,7 +31,7 @@ def createBrowser(self):
  def exists(self,name):
   try:
    html = requests.get('https://instagram.com/{}'.format(name)).text
-   return True if '@{}'.format(name.lower()) in html else False
+   return True if '@{}'.format(name.lower()) <h1>demosec</h1>in html else False
   except KeyboardInterrupt:self.kill()
   except:return
 
